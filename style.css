@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: aquamarine;
+    height: 100vh;
+    display: grid;
+grid-template-columns:repeat(6,1fr);
+grid-template-rows: repeat(9,1fr);
+padding: 100px 100px;
+
+}
+.container-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-1{
+background-color: darkred;
+grid-column: 1/3;
+grid-row: 1/8;
+background-image: url(./images/newImg02-1.jpg);
+background-size: cover;
+background-position: center;
+margin-bottom: r50px;
+display: flex;
+color: white;
+    
+}
+
+.box-2{
+    background-color: rgb(38, 0, 255);
+    /* grid-column: 2/; */
+    grid-row: 1/5;
+    background-image: url(./images/ml01.png);
+    background-position: center;
+    background-size: cover;
+    /* padding-right: 490px; */
+    column-gap: 10px;
+    row-gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.box-3{
+    background-color:rgb(0, 153, 255);
+    grid-column: 4/5;
+    grid-row: 4/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.box-4{
+    background-color:rgb(20, 20, 57);
+   grid-column-start: 3;
+   grid-column-end: 3;
+   grid-row-start:5 ;
+   grid-row-end: 8;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.box-5{
+    background-color: blueviolet;
+    grid-row-start: 4;
+    grid-row-end: 11;
+    background-image: url(images/ksp6.png);
+    background-size: cover;
+    background-position: center;
+color:white;
+display: flex;
+
+}
+
+.box-6{
+background-color: rgb(255, 0, 157);
+grid-row-start: 8;
+grid-row-end: 11;
+grid-column-start: 1;
+grid-column-end: 4;
+background-image: url(images/ksp4.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+
+}
+.box-4 h2{
+    color: rgb(74, 73, 153);
+    font-size: 50px;
+}
+.box-4 p{
+    color: white;
+    
+}
+.box-6 span{
+    margin-left: 30px;
+}
+.box-1 h2{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.box-2 span{
+    margin-bottom: 50px;
+}
+.box-5 span{
+    margin-left: 20px;
+}
